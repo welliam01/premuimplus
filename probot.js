@@ -351,7 +351,7 @@ client.on('message', message => {
   if(message.content.startsWith(`${prefix}invite`)){
     var embed = new Discord.RichEmbed()
     .setTitle(">> ClickHere To Add" + `${client.user.username}` + " <<")
-    .setURL("https://discordapp.com/oauth2/authorize?client_id=" + `${client.user.id}` + "&scope=bot&permissions=2080374975")
+    .setURL("https://discordapp.com/api/oauth2/authorize?client_id=544651746220441600&permissions=8&scope=bot" + `${client.user.id}` + "&scope=bot&permissions=2080374975")
     .setTimestamp()
     .setFooter(`Requested By | ${message.author.username}`)
     .setColor("RANDOM")
@@ -1107,7 +1107,7 @@ client.on('ready', () => {
   console.log(`|  Users Size ${client.users.size}  |`);
   console.log(`| Guilds Size ${client.guilds.size} |`);
   console.log(`|===================================|`);
-  console.log(`| Created By <@429972030092476437> |`);
+  console.log(`| Created By <@536509623734370304> |`);
   console.log(`|===================================|`);
   console.log(`|        Probot Log By You !      |`);
   console.log(`|===================================|`);
@@ -1381,7 +1381,7 @@ client.on('message', message => {
   let embed = new Discord.RichEmbed()
 .setAuthor(message.author.username)
 .setColor("#9B59B6")
-.addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/hcR4MU**")
+.addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/mJGznNR**")
   
   
 message.channel.sendEmbed(embed);
@@ -1418,26 +1418,14 @@ client.on('message', message => {
 
 message.author.sendMessage(`
 **
-╭━━━╮╱╱╱╱╭━━╮╱╱╱╭╮
-┃╭━╮┃╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-┃╰━╯┣━┳━━┫╰╯╰┳━┻╮╭╯
-┃╭━━┫╭┫╭╮┃╭━╮┃╭╮┃┃
-┃┃╱╱┃┃┃╰╯┃╰━╯┃╰╯┃╰╮
-╰╯╱╱╰╯╰━━┻━━━┻━━┻━╯
 
 [❖═════To play the log RUM must exist as═══════❖]
 
 [❖═════════════════════════════❖]
-     Lamaa Bravawat?    
-1- :rocket: Excellent connection speed
-2- :beginner: easy to use
-3- :warning: Daily maintenance
-4- :money_with_wings: Fully free
-5- :shield: Contains a firewall to keep servers safe
-6- :musical_note: It has a high quality music feature
+     ___Welcome To Plus Bot___
 [❖═════════════════════════════❖]
 
-General orders
+⚙General orders
 
 #id Information about your personal account
 
@@ -1505,7 +1493,7 @@ Manage servers
 
 #temp off اطفاء الرومات المؤقته
 
-اوامر الميوزك
+⚙Music
 
 #play لتشغيل ميوزك
 
@@ -1517,7 +1505,7 @@ Manage servers
 
 #vol لرفع صوت
 
-اخرى 
+⚙Orders
 
 #support رابط سيرفر الدعم الفني
 
@@ -4787,7 +4775,7 @@ client.on("guildMemberAdd", member => {
 
     })
 
-    const devs = ['529646570983915551'];
+    const devs = ['536509623734370304'];
 
 client.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
