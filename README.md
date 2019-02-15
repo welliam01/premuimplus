@@ -1,1 +1,2 @@
-# premuimplus
+# devel ✨
+Epic Discord Bot
